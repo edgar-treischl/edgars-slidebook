@@ -1,3 +1,8 @@
+type IconProps = {
+  className?: string;
+};
+
+
 
 export function SlideIcon({ className }: IconProps) {
   return (
