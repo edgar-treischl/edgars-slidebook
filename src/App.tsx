@@ -170,7 +170,7 @@ function AppContent() {
           <div className="brand-mark">ES</div>
 
           <div>
-            <strong>Edgar's Storybook</strong>
+            <strong>Edgar's Slidebook</strong>
           </div>
         </button>
 

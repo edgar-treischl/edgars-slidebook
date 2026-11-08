@@ -23,7 +23,7 @@ export function LandingPage() {
         >
           <div className="brand-mark">ES</div>
           <div>
-            <strong>Edgar's Storybook</strong>
+            <strong>Edgar's Slidebook</strong>
           </div>
         </button>
 
@@ -54,7 +54,7 @@ export function LandingPage() {
       <main className="content">
         <header>
           <div className="breadcrumb">Welcome</div>
-          <h1>Edgar's Storybook</h1>
+          <h1>Edgar's Slidebook</h1>
           <p>Explore data visualization examples built with R, Python, and JavaScript. Select a story from the sidebar to get started.</p>
         </header>
 
