@@ -6,7 +6,7 @@ import { join } from 'path';
 
 export default defineConfig({
   // IMPORTANT for GitHub Pages deployment
-  base: '/edgars-storybook/',
+  base: '/edgars-slidebook/',
 
   plugins: [
     react(),
