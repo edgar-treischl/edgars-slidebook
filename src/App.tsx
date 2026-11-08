@@ -5,6 +5,7 @@ import { highlightCode } from "./highlight"
 import { parseInlineMarkdown } from "./utils/parseMarkdown"
 import { LandingPage } from "./components/LandingPage"
 import ScrollToTop from "./components/ScrollToTop"
+import { SlideIcon } from "./assets/icons"
 import type { StoryImplementation, StoryLanguage } from "./stories/types"
 
 const languageLabels: Record<StoryLanguage, string> = {
@@ -167,10 +168,10 @@ function AppContent() {
           className="brand"
           onClick={() => navigate("/")}
         >
-          <div className="brand-mark">ES</div>
+          <SlideIcon className="brand-mark" />
 
           <div>
-            <strong>Edgar's Slidebook</strong>
+            <strong>Edgar's Slideshow</strong>
           </div>
         </button>
 

@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import { stories } from "../stories"
+import { SlideIcon } from "../assets/icons"
 import type { StoryImplementation } from "../stories/types"
 
 function StoryThumbnail({ implementation, title }: {
@@ -21,9 +22,9 @@ export function LandingPage() {
           className="brand"
           onClick={() => navigate("/")}
         >
-          <div className="brand-mark">ES</div>
+          <SlideIcon className="brand-mark" />
           <div>
-            <strong>Edgar's Slidebook</strong>
+            <strong>Edgar's Slideshow</strong>
           </div>
         </button>
 
@@ -54,7 +55,7 @@ export function LandingPage() {
       <main className="content">
         <header>
           <div className="breadcrumb">Welcome</div>
-          <h1>Edgar's Slidebook</h1>
+          <h1>Edgar's Slideshow</h1>
           <p>Explore data visualization examples built with R, Python, and JavaScript. Select a story from the sidebar to get started.</p>
         </header>
 

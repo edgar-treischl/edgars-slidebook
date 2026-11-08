@@ -54,7 +54,7 @@ button {
   display: grid;
   place-items: center;
   border-radius: 8px;
-  background: #276dc3;
+  background: #0098d4;
   color: white;
   font-weight: 700;
 }
@@ -106,7 +106,7 @@ button {
 
 .story.active {
   background: #eff6ff;
-  color: #2563eb;
+  color: #0098d4;
   font-weight: 500;
 }
 
@@ -267,8 +267,8 @@ pre {
 }
 
 .variant.active {
-  border-bottom-color: #2563eb;
-  color: #2563eb;
+  border-bottom-color: #0098d4;
+  color: #0098d4;
   font-weight: 500;
 }
 
